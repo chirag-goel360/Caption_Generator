@@ -58,6 +58,7 @@ class _HomePageState extends State<HomePage> {
         0xD8,
       ],
     ).split('/');
+    // Get your API Key from https://developers.redhat.com/courses/openshift/getting-started
     final requestImage = http.MultipartRequest(
       'POST',
       Uri.parse(

@@ -90,6 +90,7 @@ class _LiveCaptionState extends State<LiveCaption> {
         0xD8,
       ],
     ).split('/');
+    // Get your API Key from https://developers.redhat.com/courses/openshift/getting-started
     final imageUploadRequest = http.MultipartRequest(
       'POST',
       Uri.parse(
